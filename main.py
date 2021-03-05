@@ -80,7 +80,7 @@ mean4 = round(mean4, 2)
 mean5 = round(mean5, 2)
 
 
-target_data = [('C0A880', mean1), ('C0F9A0', mean2), ('C0G640', mean3), ('C0R190', mean4), ('C0X260', mean5)]
+target_data = [['C0A880', mean1], ['C0F9A0', mean2], ['C0G640', mean3], ['C0R190', mean4], ['C0X260', mean5]]
 
 
 
@@ -96,4 +96,5 @@ target_data = [('C0A880', mean1), ('C0F9A0', mean2), ('C0G640', mean3), ('C0R190
 # Print result
 print(target_data[:])
 # print(test2[:])
+
 #========================================
